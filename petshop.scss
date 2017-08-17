@@ -1,0 +1,259 @@
+@mixin childimage($args1,$args2) {
+
+  height: $args1;
+  width: $args2;
+
+}
+
+@mixin innercontainerbox($args1,$args2,$args3,$args4,$args5)
+{
+  float: $args1;
+  height: $args2;
+  width: $args3;
+  margin-left: $args4;
+  margin-top: $args5;
+  //border: $args6
+}
+
+@mixin image($args1,$args2,$args3)
+{
+  height: $args1;
+  width: $args2;
+  float: $args3
+}
+
+
+
+.mainimg
+{
+  top: 70px;
+  height: 400px;
+  width: 1200px;
+}
+
+.childimg
+{
+  //height: 100px;
+  //width: 90px;
+  //border: 1px solid black;
+  @include childimage(100px,90px);
+  float: left;
+
+}
+
+.container
+{
+  //top: 400px;
+  margin-left: 280px;
+  width: 700px;
+  //height: 300px;
+  height: auto;
+  //border: 1px solid black;
+  //position: relative;
+}
+.innercontainer1
+{
+  width:600px;
+  height: 120px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.innercontainer2
+{
+  width:900px;
+  height: 120px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: 1px solid black;
+
+}
+.innercontainer3
+{
+  width: 900px;
+  height: 150px;
+  margin-left: 310px;
+  //border: 1px solid black;
+}
+.span1
+{
+
+ margin-left: 5px;
+}
+.innercontainerblock
+{
+  @include innercontainerbox(left,105px,250px,20px,5px);
+
+  //float: left;
+  //height: 105px;
+  //width: 250px;
+  //margin-left: 20px;
+  //border: 1px solid black;
+  //margin-top: 5px;
+
+}
+
+.backcontainer
+{
+  @include innercontainerbox(left,105px,270px,20px,5px);
+}
+
+.backimage
+{
+  @include image(105px,270px,left);
+}
+//.innercontainerblock2
+//{
+//  float: left;
+//  height: 105px;
+//  width: 250px;
+//  margin-left: 20px;
+//  //border: 1px solid black;
+//  margin-top: 5px;
+//
+//}
+
+.footerclass
+{
+  background-color: maroon;
+  height: 200px;
+  width:1400px;
+}
+
+.footercontainer
+{
+  height: 125px;
+  width: 210px;
+  float: left;
+  //border: 1px solid black;
+  margin-left: 10px;
+}
+
+.footerimage
+{
+  @include image(125px,210px,left);
+
+}
+
+#footerlogo
+{
+  background-color: yellow;
+  margin-top: 10px;
+  width: 1400px;
+  height: 50px;
+}
+#copyright
+{
+  text-align: center;
+}
+.searchbutton
+{
+  height: 70px;
+  width: 300px;
+  margin-left: 950px;
+  margin-top: 15px;
+  //float: left;
+  //padding: 5px;
+  //border: 1px solid black;
+  background-color: gold;
+  position: absolute;
+  top:350px;
+  left:20px;
+}
+
+#findbutton
+{
+  //margin-top: 5px;
+  margin-left: 5px;
+  //float: left;
+}
+
+#sbutton
+{
+  //@include image(20px,70px);
+  position: relative;
+  top:5px;
+  height:20px;
+  width: 70px;
+  //float: left;
+}
+
+.imgbutton
+{
+  //margin-left: 950px;
+  //margin-top: 10px;
+  position: absolute;
+  top: 440px;
+  left: 970px;
+  float: left;
+
+
+}
+
+#word1
+{
+  position: absolute;
+  top: 430px;
+  //top: 430px;
+  left: 973px;
+  z-index: 1;
+}
+
+.imgbutton1
+{
+  position: absolute;
+  top: 440px;
+  left: 1110px;
+  float: left;
+}
+
+#word2
+{
+  position: absolute;
+  top: 430px;
+  left: 1110px;
+  float: left;
+}
+
+.contentdiv
+{
+  position: absolute;
+  top: 473px;
+  left: 970px;
+  float: left;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  height: 210px;
+  width: 300px;
+}
+
+.innerdiv
+{
+  //position: absolute;
+  top: 480px;
+  left: 970px;
+  float: left;
+  border: 1px solid black;
+  height: 20px;
+  width: 290px;
+  background-color: gold;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.word3
+{
+  position: absolute;
+  top: 466px;
+
+  //top: 430px;
+  left: 979px;
+  z-index: 1;
+}
+//.radiobutton
+//{
+//  //float: left;
+//  margin-left: 2px;
+//}

@@ -1,0 +1,151 @@
+.mainimg {
+  top: 70px;
+  height: 400px;
+  width: 1200px; }
+
+.childimg {
+  height: 100px;
+  width: 90px;
+  float: left; }
+
+.container {
+  margin-left: 280px;
+  width: 700px;
+  height: auto; }
+
+.innercontainer1 {
+  width: 600px;
+  height: 120px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: 1px solid black;
+  background-color: white; }
+
+.innercontainer2 {
+  width: 900px;
+  height: 120px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: 1px solid black; }
+
+.innercontainer3 {
+  width: 900px;
+  height: 150px;
+  margin-left: 310px; }
+
+.span1 {
+  margin-left: 5px; }
+
+.innercontainerblock {
+  float: left;
+  height: 105px;
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 5px; }
+
+.backcontainer {
+  float: left;
+  height: 105px;
+  width: 270px;
+  margin-left: 20px;
+  margin-top: 5px; }
+
+.backimage {
+  height: 105px;
+  width: 270px;
+  float: left; }
+
+.footerclass {
+  background-color: maroon;
+  height: 200px;
+  width: 1400px; }
+
+.footercontainer {
+  height: 125px;
+  width: 210px;
+  float: left;
+  margin-left: 10px; }
+
+.footerimage {
+  height: 125px;
+  width: 210px;
+  float: left; }
+
+#footerlogo {
+  background-color: yellow;
+  margin-top: 10px;
+  width: 1400px;
+  height: 50px; }
+
+#copyright {
+  text-align: center; }
+
+.searchbutton {
+  height: 70px;
+  width: 300px;
+  margin-left: 950px;
+  margin-top: 15px;
+  background-color: gold;
+  position: absolute;
+  top: 350px;
+  left: 20px; }
+
+#findbutton {
+  margin-left: 5px; }
+
+#sbutton {
+  position: relative;
+  top: 5px;
+  height: 20px;
+  width: 70px; }
+
+.imgbutton {
+  position: absolute;
+  top: 440px;
+  left: 970px;
+  float: left; }
+
+#word1 {
+  position: absolute;
+  top: 430px;
+  left: 973px;
+  z-index: 1; }
+
+.imgbutton1 {
+  position: absolute;
+  top: 440px;
+  left: 1110px;
+  float: left; }
+
+#word2 {
+  position: absolute;
+  top: 430px;
+  left: 1110px;
+  float: left; }
+
+.contentdiv {
+  position: absolute;
+  top: 473px;
+  left: 970px;
+  float: left;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  height: 210px;
+  width: 300px; }
+
+.innerdiv {
+  top: 480px;
+  left: 970px;
+  float: left;
+  border: 1px solid black;
+  height: 20px;
+  width: 290px;
+  background-color: gold;
+  margin-top: 5px;
+  margin-left: 5px; }
+
+.word3 {
+  position: absolute;
+  top: 466px;
+  left: 979px;
+  z-index: 1; }
